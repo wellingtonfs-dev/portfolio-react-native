@@ -1,23 +1,27 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   text: {
-    fontSize: 24,
-    fontWeight: 'bold',    
-    margin: 20,
+    fontSize: 20,
+    fontWeight: "bold",
+    color: "#fff",
+    textAlign: "center",
+    margin: 10,
+    padding: 20,
+    backgroundColor: "#333",
     borderRadius: 10,
-    width: '90%',
-    textAlign: 'center',
-    backgroundColor: '#000',
-    color: '#FFFFFF',
-    borderColor: '#FFFFFF',    
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.8,
+    shadowRadius: 2,
+    elevation: 5,
   },
-  container:{
-    flex: 1,    
-    backgroundColor: '#333',    
-    alignItems: 'center',
-    justifyContent: 'space-around',    
+  container: {
+    flex: 1,
+    backgroundColor: "#333",
+    alignItems: "center",
+    justifyContent: "space-around",
     paddingTop: 100,
-    width: '100%',    
-  }
+    width: "100%",
+  },
 });
